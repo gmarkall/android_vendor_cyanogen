@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration.
-$(call inherit-product, device/motorola/jordan/jordan.mk)
+$(call inherit-product, device/motorola/jordan_plus/jordan_plus.mk)
 
 # Inherit common GSM stuff
 $(call inherit-product, vendor/cyanogen/products/gsm.mk)
@@ -16,15 +16,15 @@ PRODUCT_PACKAGES += GanOptimizer
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_jordan
+PRODUCT_NAME := cyanogen_jordan_plus
 PRODUCT_BRAND := MOTO
-PRODUCT_DEVICE := jordan
-PRODUCT_MODEL := MB525
+PRODUCT_DEVICE := jordan_plus
+PRODUCT_MODEL := MB526
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_SFX := JOREM_U3
 
 # Release name and versioning
-PRODUCT_RELEASE_NAME := Defy
+PRODUCT_RELEASE_NAME := Defy+
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
 

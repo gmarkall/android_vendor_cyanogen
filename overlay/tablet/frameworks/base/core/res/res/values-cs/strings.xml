@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2011, The Android Open Source Project
+** Copyright 2009, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -16,13 +16,11 @@
 ** limitations under the License.
 */
 -->
-<resources>
 
-    <!-- Wide media profile available -->
-    <bool name="supportsWideProfile">true</bool>
-
-    <!-- Autofocus parameters -->
-    <string name="touchFocusParameter">mot-areas-to-focus</string>
-    <bool name="touchFocusNeedsRect">true</bool>
-
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="power_dialog">Možnosti tabletu</string>
+  <string name="reboot_system">Restartovat tablet</string>
+  <string name="shutdown_confirm">Tablet bude vypnut.</string>
+  <string name="reboot_confirm">Tablet bude restartován.</string>
+  <string name="global_actions">Možnosti tabletu</string>
 </resources>

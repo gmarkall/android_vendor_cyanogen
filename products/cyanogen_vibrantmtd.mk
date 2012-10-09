@@ -1,5 +1,5 @@
-# Inherit AOSP device configuration for captivate.
-$(call inherit-product, device/samsung/captivatemtd/full_captivatemtd.mk)
+# Inherit AOSP device configuration for vibrantmtd.
+$(call inherit-product, device/samsung/vibrantmtd/full_vibrantmtd.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
@@ -10,20 +10,23 @@ $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cyanogen_captivatemtd
+PRODUCT_NAME := cyanogen_vibrantmtd
 PRODUCT_BRAND := samsung
-PRODUCT_DEVICE := captivatemtd
-PRODUCT_MODEL := SGH-I897
-PRODUCT_MANUFACTURER := samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SGH-I897 TARGET_DEVICE=SGH-I897 BUILD_ID=GINGERBREAD BUILD_FINGERPRINT=samsung/SGH-I897/SGH-I897:2.3.5/GINGERBREAD/UCKK4:user/release-keys PRIVATE_BUILD_DESC="SGH-I897-user 2.3.5 GINGERBREAD UCKK4 release-keys"
+PRODUCT_DEVICE := vibrantmtd
+PRODUCT_MODEL := SGH-T959
+PRODUCT_MANUFACTURER := Samsung
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=soju BUILD_ID=GRJ22 BUILD_FINGERPRINT=google/soju/crespo:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.4 GRJ22 121341 release-keys"
 
 # Build kernel
 #PRODUCT_SPECIFIC_DEFINES += TARGET_PREBUILT_KERNEL=
 #PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel-samsung
-#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_captivate_defconfig
+#PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_vibrantmtd_defconfig
 
-# Extra captivate overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/captivatemtd
+# Extra galaxys overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/vibrantmtd
+
+# Add the FM app
+# PRODUCT_PACKAGES += FM
 
 # Extra RIL settings
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -37,12 +40,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vold.switchablepair=/mnt/sdcard,/mnt/emmc
 
 # Release name and versioning
-PRODUCT_RELEASE_NAME := Captivate
+PRODUCT_RELEASE_NAME := Vibrant
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
 
 #
-# Copy captivate specific prebuilt files
+# Copy galaxys specific prebuilt files
 #
 PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip

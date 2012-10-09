@@ -1,6 +1,6 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cyanogen_ace.mk \
     $(LOCAL_DIR)/cyanogen_a107.mk \
+    $(LOCAL_DIR)/cyanogen_ace.mk \
     $(LOCAL_DIR)/cyanogen_anzu.mk \
     $(LOCAL_DIR)/cyanogen_blade.mk \
     $(LOCAL_DIR)/cyanogen_bravo.mk \
@@ -16,7 +16,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_dream_sapphire.mk \
     $(LOCAL_DIR)/cyanogen_droid2.mk \
     $(LOCAL_DIR)/cyanogen_droid2we.mk \
-    $(LOCAL_DIR)/cyanogen_e730.mk \
     $(LOCAL_DIR)/cyanogen_encore.mk \
     $(LOCAL_DIR)/cyanogen_epicmtd.mk \
     $(LOCAL_DIR)/cyanogen_espresso.mk \
@@ -28,6 +27,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_inc.mk \
     $(LOCAL_DIR)/cyanogen_iyokan.mk \
     $(LOCAL_DIR)/cyanogen_jordan.mk \
+    $(LOCAL_DIR)/cyanogen_jordan_plus.mk \
+    $(LOCAL_DIR)/cyanogen_galaxy5.mk \
     $(LOCAL_DIR)/cyanogen_galaxys2.mk \
     $(LOCAL_DIR)/cyanogen_galaxys2att.mk \
     $(LOCAL_DIR)/cyanogen_galaxysbmtd.mk \
@@ -62,6 +63,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_smb_b9701.mk \
     $(LOCAL_DIR)/cyanogen_smultron.mk \
     $(LOCAL_DIR)/cyanogen_speedy.mk \
+    $(LOCAL_DIR)/cyanogen_sunfire.mk \
     $(LOCAL_DIR)/cyanogen_supersonic.mk \
     $(LOCAL_DIR)/cyanogen_tass.mk \
     $(LOCAL_DIR)/cyanogen_u8150.mk \
@@ -69,6 +71,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_urushi.mk \
     $(LOCAL_DIR)/cyanogen_v9.mk \
     $(LOCAL_DIR)/cyanogen_vega.mk \
+    $(LOCAL_DIR)/cyanogen_vibrantmtd.mk \
     $(LOCAL_DIR)/cyanogen_vision.mk \
     $(LOCAL_DIR)/cyanogen_vivo.mk \
     $(LOCAL_DIR)/cyanogen_vivow.mk \

@@ -16,7 +16,7 @@ PRODUCT_BRAND := htc_wwe
 PRODUCT_DEVICE := leo
 PRODUCT_MODEL := HTC HD2
 PRODUCT_MANUFACTURER := HTC
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=passion BUILD_ID=GRI40 BUILD_FINGERPRINT=google/passion/passion:2.3.3/GRI40/102588:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.3 GRI40 102588 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=passion BUILD_FINGERPRINT=google/passion/passion:2.3.7/GRK39G/189905:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.7 GRK39G 189905 release-keys"
 
 # Extra leo overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/leo
