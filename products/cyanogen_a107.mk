@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for encore.
-$(call inherit-product, device/lenovo/a1/a1.mk)
+$(call inherit-product, device/lenovo/a107/a107.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
