@@ -10,7 +10,7 @@ $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 PRODUCT_NAME := cyanogen_a107
 PRODUCT_BRAND := lenovo
 PRODUCT_DEVICE := a107
-PRODUCT_MODEL := A1
+PRODUCT_MODEL := IdeaPad A1
 PRODUCT_MANUFACTURER := lenovo
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=a107 BUILD_ID=GRK393 BUILD_FINGERPRINT=lenovo/a107/a107:2.3.7/GRK393/189913:user/release-keys PRIVATE_BUILD_DESC="a107-user 2.3.7 GRK393 189913 release-keys"
 
